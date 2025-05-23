@@ -57,7 +57,6 @@ class GameViewModel {
                let location = touch.location(in: view)
                touchLocations[touch] = location
                delegate?.requestsHapticFeedbackOfType(.medium)
-               print("VM: Toque detectado en: \(location)")
            }
 
            if winnerSelectionTimer == nil && touchLocations.count >= 2 {
@@ -74,19 +73,19 @@ class GameViewModel {
            let remainingTouches = touchLocations
 
            if winnerSelectionTimer == nil && remainingTouches.isEmpty {
-               resetGame()
+               self.resetGame()
            } else if !remainingTouches.isEmpty && winnerSelectionTimer != nil && remainingTouches.count < 2 {
                 winnerSelectionTimer?.invalidate()
                 winnerSelectionTimer = nil
-                gameMessage = "¡Ooops, remmember keep touching the screen, try again."
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                gameMessage = "¡Ooops, remmember the game is for 2 o more players"
+               DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
                     self.resetGame()
                 }
            } else if remainingTouches.isEmpty && winnerSelectionTimer != nil {
                winnerSelectionTimer?.invalidate()
                winnerSelectionTimer = nil
-               gameMessage = "Try again Please"
-               DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+               gameMessage = "Keep yor fingers in the game"
+               DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
                    self.resetGame()
                }
            }
@@ -106,8 +105,8 @@ class GameViewModel {
            let validTouches = touchLocations
 
            guard !validTouches.isEmpty else {
-               gameMessage = "No one touch the screen"
-               resetGameAfterDelay()
+               gameMessage = "Please remmember is a 2 or more players game :D"
+               resetGame()
                return
            }
 
@@ -132,13 +131,6 @@ class GameViewModel {
            } else {
                gameMessage = "No one win"
            }
-           resetGameAfterDelay()
-       }
-       
-       private func resetGameAfterDelay() {
-           DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-               self.resetGame()
-           }
        }
 
        func resetGame() {
@@ -148,8 +140,6 @@ class GameViewModel {
            
            setupInitialState()
            delegate?.requestsGameLabelAlphaUpdate(alpha: 1.0, animationDuration: 0.5)
-           
-           print("VM: Juego reiniciado.")
        }
 
        // MARK: - Color Logic

@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     let gameLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
-        label.font = UIFont.systemFont(ofSize: 24, weight: .bold)
+        label.font = UIFont.systemFont(ofSize: 34, weight: .bold)
         label.numberOfLines = 0
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -36,7 +36,6 @@ class ViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.isMultipleTouchEnabled = true
         
         viewModel = GameViewModel()
         viewModel.delegate = self
@@ -46,6 +45,7 @@ class ViewController: UIViewController {
 
     // MARK: - UI Setup
     private func setupUI() {
+        view.isMultipleTouchEnabled = true
         view.addSubview(gameLabel)
         view.addSubview(logoLabel)
 

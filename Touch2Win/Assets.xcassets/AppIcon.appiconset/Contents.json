@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "T2W_icon.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
