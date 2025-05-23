@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52E78CC2DDFC9E10010723B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78CB2DDFC9E10010723B /* AppDelegate.swift */; };
+		E52E78CE2DDFC9E10010723B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78CD2DDFC9E10010723B /* SceneDelegate.swift */; };
+		E52E78D02DDFC9E10010723B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78CF2DDFC9E10010723B /* ViewController.swift */; };
+		E52E78D32DDFC9E20010723B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52E78D12DDFC9E20010723B /* Main.storyboard */; };
+		E52E78D52DDFC9E30010723B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52E78D42DDFC9E30010723B /* Assets.xcassets */; };
+		E52E78D82DDFC9E30010723B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52E78D62DDFC9E30010723B /* LaunchScreen.storyboard */; };
+		E52E78E32DDFC9E30010723B /* Touch2WinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78E22DDFC9E30010723B /* Touch2WinTests.swift */; };
+		E52E78ED2DDFC9E30010723B /* Touch2WinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78EC2DDFC9E30010723B /* Touch2WinUITests.swift */; };
+		E52E78EF2DDFC9E30010723B /* Touch2WinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78EE2DDFC9E30010723B /* Touch2WinUITestsLaunchTests.swift */; };
+		E52E78FC2DDFEC620010723B /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78FB2DDFEC620010723B /* GameProtocol.swift */; };
+		E52E78FE2DDFED0A0010723B /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78FD2DDFED0A0010723B /* GameViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E52E78DF2DDFC9E30010723B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52E78C02DDFC9E10010723B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52E78C72DDFC9E10010723B;
+			remoteInfo = Touch2Win;
+		};
+		E52E78E92DDFC9E30010723B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52E78C02DDFC9E10010723B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52E78C72DDFC9E10010723B;
+			remoteInfo = Touch2Win;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E52E78C82DDFC9E10010723B /* Touch2Win.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touch2Win.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52E78CB2DDFC9E10010723B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E52E78CD2DDFC9E10010723B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E52E78CF2DDFC9E10010723B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E52E78D22DDFC9E20010723B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E52E78D42DDFC9E30010723B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E52E78D72DDFC9E30010723B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E52E78D92DDFC9E30010723B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52E78DE2DDFC9E30010723B /* Touch2WinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Touch2WinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52E78E22DDFC9E30010723B /* Touch2WinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touch2WinTests.swift; sourceTree = "<group>"; };
+		E52E78E82DDFC9E30010723B /* Touch2WinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Touch2WinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52E78EC2DDFC9E30010723B /* Touch2WinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touch2WinUITests.swift; sourceTree = "<group>"; };
+		E52E78EE2DDFC9E30010723B /* Touch2WinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touch2WinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E52E78FB2DDFEC620010723B /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		E52E78FD2DDFED0A0010723B /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52E78C52DDFC9E10010723B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E78DB2DDFC9E30010723B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E78E52DDFC9E30010723B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E52E78BF2DDFC9E10010723B = {
+			isa = PBXGroup;
+			children = (
+				E52E78CA2DDFC9E10010723B /* Touch2Win */,
+				E52E78E12DDFC9E30010723B /* Touch2WinTests */,
+				E52E78EB2DDFC9E30010723B /* Touch2WinUITests */,
+				E52E78C92DDFC9E10010723B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E52E78C92DDFC9E10010723B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52E78C82DDFC9E10010723B /* Touch2Win.app */,
+				E52E78DE2DDFC9E30010723B /* Touch2WinTests.xctest */,
+				E52E78E82DDFC9E30010723B /* Touch2WinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E52E78CA2DDFC9E10010723B /* Touch2Win */ = {
+			isa = PBXGroup;
+			children = (
+				E52E78CB2DDFC9E10010723B /* AppDelegate.swift */,
+				E52E78CD2DDFC9E10010723B /* SceneDelegate.swift */,
+				E52E78CF2DDFC9E10010723B /* ViewController.swift */,
+				E52E78D12DDFC9E20010723B /* Main.storyboard */,
+				E52E78D42DDFC9E30010723B /* Assets.xcassets */,
+				E52E78D62DDFC9E30010723B /* LaunchScreen.storyboard */,
+				E52E78D92DDFC9E30010723B /* Info.plist */,
+				E52E78FB2DDFEC620010723B /* GameProtocol.swift */,
+				E52E78FD2DDFED0A0010723B /* GameViewModel.swift */,
+			);
+			path = Touch2Win;
+			sourceTree = "<group>";
+		};
+		E52E78E12DDFC9E30010723B /* Touch2WinTests */ = {
+			isa = PBXGroup;
+			children = (
+				E52E78E22DDFC9E30010723B /* Touch2WinTests.swift */,
+			);
+			path = Touch2WinTests;
+			sourceTree = "<group>";
+		};
+		E52E78EB2DDFC9E30010723B /* Touch2WinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E52E78EC2DDFC9E30010723B /* Touch2WinUITests.swift */,
+				E52E78EE2DDFC9E30010723B /* Touch2WinUITestsLaunchTests.swift */,
+			);
+			path = Touch2WinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52E78C72DDFC9E10010723B /* Touch2Win */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52E78F22DDFC9E30010723B /* Build configuration list for PBXNativeTarget "Touch2Win" */;
+			buildPhases = (
+				E52E78C42DDFC9E10010723B /* Sources */,
+				E52E78C52DDFC9E10010723B /* Frameworks */,
+				E52E78C62DDFC9E10010723B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touch2Win;
+			productName = Touch2Win;
+			productReference = E52E78C82DDFC9E10010723B /* Touch2Win.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E52E78DD2DDFC9E30010723B /* Touch2WinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52E78F52DDFC9E30010723B /* Build configuration list for PBXNativeTarget "Touch2WinTests" */;
+			buildPhases = (
+				E52E78DA2DDFC9E30010723B /* Sources */,
+				E52E78DB2DDFC9E30010723B /* Frameworks */,
+				E52E78DC2DDFC9E30010723B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52E78E02DDFC9E30010723B /* PBXTargetDependency */,
+			);
+			name = Touch2WinTests;
+			productName = Touch2WinTests;
+			productReference = E52E78DE2DDFC9E30010723B /* Touch2WinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E52E78E72DDFC9E30010723B /* Touch2WinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52E78F82DDFC9E30010723B /* Build configuration list for PBXNativeTarget "Touch2WinUITests" */;
+			buildPhases = (
+				E52E78E42DDFC9E30010723B /* Sources */,
+				E52E78E52DDFC9E30010723B /* Frameworks */,
+				E52E78E62DDFC9E30010723B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52E78EA2DDFC9E30010723B /* PBXTargetDependency */,
+			);
+			name = Touch2WinUITests;
+			productName = Touch2WinUITests;
+			productReference = E52E78E82DDFC9E30010723B /* Touch2WinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52E78C02DDFC9E10010723B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E52E78C72DDFC9E10010723B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E52E78DD2DDFC9E30010723B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E52E78C72DDFC9E10010723B;
+					};
+					E52E78E72DDFC9E30010723B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E52E78C72DDFC9E10010723B;
+					};
+				};
+			};
+			buildConfigurationList = E52E78C32DDFC9E10010723B /* Build configuration list for PBXProject "Touch2Win" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E52E78BF2DDFC9E10010723B;
+			productRefGroup = E52E78C92DDFC9E10010723B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E52E78C72DDFC9E10010723B /* Touch2Win */,
+				E52E78DD2DDFC9E30010723B /* Touch2WinTests */,
+				E52E78E72DDFC9E30010723B /* Touch2WinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52E78C62DDFC9E10010723B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E78D82DDFC9E30010723B /* LaunchScreen.storyboard in Resources */,
+				E52E78D52DDFC9E30010723B /* Assets.xcassets in Resources */,
+				E52E78D32DDFC9E20010723B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E78DC2DDFC9E30010723B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E78E62DDFC9E30010723B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52E78C42DDFC9E10010723B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E78D02DDFC9E10010723B /* ViewController.swift in Sources */,
+				E52E78FC2DDFEC620010723B /* GameProtocol.swift in Sources */,
+				E52E78CC2DDFC9E10010723B /* AppDelegate.swift in Sources */,
+				E52E78FE2DDFED0A0010723B /* GameViewModel.swift in Sources */,
+				E52E78CE2DDFC9E10010723B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E78DA2DDFC9E30010723B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E78E32DDFC9E30010723B /* Touch2WinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E78E42DDFC9E30010723B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E78EF2DDFC9E30010723B /* Touch2WinUITestsLaunchTests.swift in Sources */,
+				E52E78ED2DDFC9E30010723B /* Touch2WinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52E78E02DDFC9E30010723B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52E78C72DDFC9E10010723B /* Touch2Win */;
+			targetProxy = E52E78DF2DDFC9E30010723B /* PBXContainerItemProxy */;
+		};
+		E52E78EA2DDFC9E30010723B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52E78C72DDFC9E10010723B /* Touch2Win */;
+			targetProxy = E52E78E92DDFC9E30010723B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E52E78D12DDFC9E20010723B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52E78D22DDFC9E20010723B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E52E78D62DDFC9E30010723B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52E78D72DDFC9E30010723B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E52E78F02DDFC9E30010723B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E52E78F12DDFC9E30010723B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52E78F32DDFC9E30010723B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A8498PHTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touch2Win/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.regy.Touch2Win;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E52E78F42DDFC9E30010723B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A8498PHTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touch2Win/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.regy.Touch2Win;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E52E78F62DDFC9E30010723B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A8498PHTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.regy.Touch2WinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touch2Win.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Touch2Win";
+			};
+			name = Debug;
+		};
+		E52E78F72DDFC9E30010723B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A8498PHTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.regy.Touch2WinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touch2Win.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Touch2Win";
+			};
+			name = Release;
+		};
+		E52E78F92DDFC9E30010723B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A8498PHTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.regy.Touch2WinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Touch2Win;
+			};
+			name = Debug;
+		};
+		E52E78FA2DDFC9E30010723B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A8498PHTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.regy.Touch2WinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Touch2Win;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52E78C32DDFC9E10010723B /* Build configuration list for PBXProject "Touch2Win" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E78F02DDFC9E30010723B /* Debug */,
+				E52E78F12DDFC9E30010723B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52E78F22DDFC9E30010723B /* Build configuration list for PBXNativeTarget "Touch2Win" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E78F32DDFC9E30010723B /* Debug */,
+				E52E78F42DDFC9E30010723B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52E78F52DDFC9E30010723B /* Build configuration list for PBXNativeTarget "Touch2WinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E78F62DDFC9E30010723B /* Debug */,
+				E52E78F72DDFC9E30010723B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52E78F82DDFC9E30010723B /* Build configuration list for PBXNativeTarget "Touch2WinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E78F92DDFC9E30010723B /* Debug */,
+				E52E78FA2DDFC9E30010723B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52E78C02DDFC9E10010723B /* Project object */;
+}
