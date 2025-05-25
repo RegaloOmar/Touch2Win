@@ -18,6 +18,9 @@
 		E52E78EF2DDFC9E30010723B /* Touch2WinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78EE2DDFC9E30010723B /* Touch2WinUITestsLaunchTests.swift */; };
 		E52E78FC2DDFEC620010723B /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78FB2DDFEC620010723B /* GameProtocol.swift */; };
 		E52E78FE2DDFED0A0010723B /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E78FD2DDFED0A0010723B /* GameViewModel.swift */; };
+		E52E79022DE37DDE0010723B /* GameViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E79012DE37DDE0010723B /* GameViewModelTest.swift */; };
+		E52E79042DE37DFE0010723B /* UITouchMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E79032DE37DFE0010723B /* UITouchMock.swift */; };
+		E52E79072DE37EC10010723B /* MockGameDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E79052DE37EC10010723B /* MockGameDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		E52E78EE2DDFC9E30010723B /* Touch2WinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touch2WinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E52E78FB2DDFEC620010723B /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		E52E78FD2DDFED0A0010723B /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		E52E79012DE37DDE0010723B /* GameViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModelTest.swift; sourceTree = "<group>"; };
+		E52E79032DE37DFE0010723B /* UITouchMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITouchMock.swift; sourceTree = "<group>"; };
+		E52E79052DE37EC10010723B /* MockGameDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGameDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				E52E78E22DDFC9E30010723B /* Touch2WinTests.swift */,
+				E52E79012DE37DDE0010723B /* GameViewModelTest.swift */,
+				E52E79032DE37DFE0010723B /* UITouchMock.swift */,
+				E52E79052DE37EC10010723B /* MockGameDelegate.swift */,
 			);
 			path = Touch2WinTests;
 			sourceTree = "<group>";
@@ -276,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52E79072DE37EC10010723B /* MockGameDelegate.swift in Sources */,
 				E52E78E32DDFC9E30010723B /* Touch2WinTests.swift in Sources */,
+				E52E79022DE37DDE0010723B /* GameViewModelTest.swift in Sources */,
+				E52E79042DE37DFE0010723B /* UITouchMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
