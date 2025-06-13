@@ -1,5 +1,6 @@
 # Touch2Win 👆
 
+![T2W_icon](https://github.com/user-attachments/assets/f860dbd9-e537-4541-b151-aa34a0c53555)
 
 
 **A simple and fun game to decide who pays the bill or who takes out the trash! "Touch 2 Win" is a small iOS app where the last finger left on the screen after a countdown, wins.**
@@ -12,15 +13,13 @@ This project was developed as part of my portfolio to demonstrate my skills in i
 
 | Initial Screen | In-Game | Winner Screen |
 | :---: | :---: | :---: |
-| ![Initial screen](URL_TO_YOUR_SCREENSHOT_1.png) | ![In-Game screen](URL_TO_YOUR_SCREENSHOT_2.png) | ![Winner screen](URL_TO_YOUR_SCREENSHOT_3.png) |
-
-*(Tip: Record a short GIF of the game in action and add it here. GIFs are very effective at showcasing the app's dynamics.)*
-
----
+| ![IMG_1183](https://github.com/user-attachments/assets/de46cee3-ab6c-45ec-aae0-1f8e5f2781a8) | ![IMG_1181](https://github.com/user-attachments/assets/0239ecde-ba47-4413-8f97-64faecf6d9e9) | ![IMG_1182](https://github.com/user-attachments/assets/687e4ac2-205a-4fe3-ba37-130d127a6c05)|
+ 
+ ---
 
 ## ✨ Features
 
-* **Multi-Touch Detection:** Detects two or more fingers on the screen to start the game.
+* **Multi-Touch Detection:** Detects two to five fingers on the screen to start the game.
 * **Random Winner Selection:** A 3-second timer randomly selects a winner from the fingers remaining on the screen.
 * **Dynamic Color Backgrounds:** The interface uses randomly generated background colors for a fresh visual experience in every round.
 * **Fluid Animations:** Clean transitions and animations using `CoreAnimation` to reveal the winner.
@@ -65,8 +64,8 @@ To build and run the project, you will need:
 
 ## 📞 Contact
 
-Developed by [Your Name] - Let's connect!
+Developed by Omar Regalado (Regy) - Let's connect!
 
-* **Portfolio:** https://www.youtube.com/watch?v=p53M6uSUG4A
-* **LinkedIn:** https://www.linkedin.com/help/linkedin/answer/a564064/your-linkedin-profile?lang=en
-* **GitHub:** [@your-username](https://github.com/your-username)
+* **Email:** regaladomendozaomar@gmail.com
+* **LinkedIn:** [https://www.linkedin.com/help/linkedin/answer/a564064/your-linkedin-profile?lang=en](https://www.linkedin.com/in/omar-regalado/)
+* **GitHub:** [@RegaloOmar]([https://github.com/your-username](https://github.com/RegaloOmar))
