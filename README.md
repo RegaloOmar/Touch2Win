@@ -5,7 +5,7 @@
 
 **A simple and fun game to decide who pays the bill or who takes out the trash! "Touch 2 Win" is a small iOS app where the last finger left on the screen after a countdown, wins.**
 
-This project was developed as part of my portfolio to demonstrate my skills in iOS development, including Swift, UIKit, MVVM architecture, and best coding practices.
+This project was developed as part of my portfolio to demonstrate my skills in iOS development, including Swift, UIKit, MVVM architecture, and best coding practices, but, now is schedule to release in the AppStore on the upcoming months
 
 ---
 
