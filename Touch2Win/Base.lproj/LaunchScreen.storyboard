@@ -16,25 +16,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="T2W_launch_icon" translatesAutoresizingMaskIntoConstraints="NO" id="9oG-Zv-6R6">
-                                <rect key="frame" x="96.666666666666686" y="326" width="200" height="200"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xoZ-Oz-Vwr">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="T2W_launch_icon" translatesAutoresizingMaskIntoConstraints="NO" id="C1x-XL-2Jt">
+                                        <rect key="frame" x="96.666666666666686" y="326" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="CQT-oa-m7k"/>
+                                            <constraint firstAttribute="width" constant="200" id="yWd-hu-vQc"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="Okr-x9-Idm"/>
-                                    <constraint firstAttribute="width" constant="200" id="mu9-HT-uOf"/>
+                                    <constraint firstItem="C1x-XL-2Jt" firstAttribute="centerY" secondItem="xoZ-Oz-Vwr" secondAttribute="centerY" id="8jR-jF-UoQ"/>
+                                    <constraint firstItem="C1x-XL-2Jt" firstAttribute="centerX" secondItem="xoZ-Oz-Vwr" secondAttribute="centerX" id="guu-wh-CR6"/>
                                 </constraints>
-                            </imageView>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9oG-Zv-6R6" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="EEB-j4-inz"/>
-                            <constraint firstItem="9oG-Zv-6R6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dbC-1N-r23"/>
+                            <constraint firstAttribute="bottom" secondItem="xoZ-Oz-Vwr" secondAttribute="bottom" id="CcQ-Vg-vW3"/>
+                            <constraint firstItem="xoZ-Oz-Vwr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q0P-mx-lW0"/>
+                            <constraint firstItem="xoZ-Oz-Vwr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ruu-Y3-vSz"/>
+                            <constraint firstItem="xoZ-Oz-Vwr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uK9-uu-PHl"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
     <resources>
